@@ -10,9 +10,9 @@
 # Expected: check_number(5) => "positive"
 def check_number(num)
    # TODO: Use if/elsif/else statement
-  if (num > 0)
+  if num > 0
     "positive"
-  elsif (num < 0)
+  elsif num < 0
     "negative"
   else
     "zero"
@@ -64,7 +64,7 @@ def count_up(n)
   # TODO: Use while loop
   res = []
   i = 1
-  while(i <= n)
+  while i <= n
     res << i
     i += 1
   end
